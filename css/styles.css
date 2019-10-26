@@ -116,7 +116,7 @@ p{
   margin: 20px 20px 50px;
   width:15%;
 }
-@media (max-width: 900px){
+@media (max-width: 1100px){
 .iphone-img{
   transform: rotate(0);
   position: static;
