@@ -1,0 +1,127 @@
+body{
+  font-family: Montserrat;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1{
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+.iphone-img{
+  width: 60%;
+  transform: rotate(25deg);
+  z-index: 1;
+  position: absolute;
+  right: 30%;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.download-button{
+  margin: 5% 3% 5%;
+}
+.row{
+  padding-top: 3.5rem;
+}
+.nav-item
+{
+  padding: 0 1rem;
+}
+#features{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 10px;
+}
+#pricing{
+  text-align: center;
+  padding: 7px 10%;
+}
+.feature-box{
+  padding: 5%;
+}
+.testimonial-img{
+  border-radius: 100%;
+  width: 15%;
+}
+h2{
+  font-family: Montserrat;
+  font-weight:bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+  font-family: Montserrat;
+  font-weight: bold;
+}
+p{
+  color: #afafaf;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background: #ef8172;
+  color: #fff;
+}
+#press{
+  background: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 13%;
+  text-align: center;
+}
+#footer{
+  text-align: center;
+}
+.footer-icon{
+  margin:0 5px;
+}
+.cta-heading{
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 3%;
+}
+.press-img{
+  margin: 20px 20px 50px;
+  width:15%;
+}
+@media (max-width: 900px){
+.iphone-img{
+  transform: rotate(0);
+  position: static;
+}
+.navbar-brand{
+  padding-left: 10%;
+}
+}
